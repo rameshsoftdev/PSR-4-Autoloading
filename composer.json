@@ -1,0 +1,17 @@
+{
+    "name": "ramesh/phpproject",
+    "description": "This is for testing important things",
+    "type": "project",
+    "autoload": {
+        "files":["libraries/functions.php"],
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ramesh"
+        }
+    ],
+    "require": {}
+}
